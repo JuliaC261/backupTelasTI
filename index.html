@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Página Inicial</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="active">
+    <ul>
+      <li><a>Página Inicial</a></li>
+      <li><a>Contato</a></li>
+      <li><a>Sobre</a></li>
+    </ul>
+  </div>
+
+  <hr>
+  <br>
+  <div class="inicial">
+    <div class="titulo">
+      <h1> AS MELHORES FERRAMENTAS PARA EMPREENDEDORES</h1>
+    </div>
+    <div class="subtitulo">
+      <p><b>Texto de descrição do site, adicione algo legal</b></p>
+    </div>
+    <div class="botao">
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Entrar ou
+        Registrar-se</button>
+
+      <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+              title="Close Modal">&times;</span>
+          </div>
+
+          <div class="container">
+            <label for="uname"><b>Nome de usuario</b></label>
+            <input type="text" placeholder="Entre com seu usuario" name="uname" required>
+
+            <label for="psw"><b>Senha</b></label>
+            <input type="password" placeholder="Entre com sua senha" name="psw" required>
+
+            <button type="submit">Logar</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> lembre-me
+            </label>
+          </div>
+
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'"
+              class="cancelbtn">Cancelar</button>
+            <span class="psw">Esqueceu <a href="#">a senha?</a></span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <div class-="imagem1">
+    <img src="imagens/image1.svg">
+  </div>
+
+  <br>
+
+  <div class="corpo">
+    <div class="funcionalidade">
+      <p> FUNCIONALIDADES</p>
+    </div>
+    <div class-="imagem2">
+      <img src="imagens/image2.svg" width="300" height="300">
+    </div>
+    <div class="descricaofunc">
+      <p> Ajuda a criatividade, sabendo como funciona os meios de propagandas entre as redes sociais e o que é mais
+        atrativo para chamar a atenção do seu cliente alvo </p>
+    </div>
+    <br>
+    <div class="titulo2">
+      <p> TITULO</p>
+    </div>
+    <div class-="imagem3">
+      <img src="imagens/image3.svg" width="300" height="300">
+    </div>
+    <div class="descricaotitulo2">
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida quam sit amet porta
+        euismod. Aliquam efficitur maximus sem vel pharetra. </p>
+    </div>
+    <br>
+
+    <div class="titulo3">
+      <p> TITULO</p>
+    </div>
+    <div class-="imagem4">
+      <img src="imagens/image4.svg" width="300" height="300">
+    </div>
+    <div class="descricaotitulo3">
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida quam sit amet porta
+        euismod. Aliquam efficitur maximus sem vel pharetra. </p>
+    </div>
+  </div>
